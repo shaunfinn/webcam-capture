@@ -142,7 +142,7 @@ class MyWindow(QMainWindow):
         #self.video_start.emit()
     
     def m_stopcap(self):
-        print("stop cap trigger ", time.time())
+        #print("stop cap trigger ", time.time())
         config.capture = False
 
 
